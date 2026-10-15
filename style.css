@@ -304,6 +304,15 @@ html, body {
   background: linear-gradient(to top, rgba(250,248,245,0) 0%, var(--bg-color) 100%);
 }
 
+.waiting-text {
+  font-family: var(--font-cursive);
+  font-size: 3.8rem;
+  color: var(--primary-color);
+  line-height: 1.1;
+  margin: 10px 0 20px;
+  font-weight: normal;
+}
+
 .waiting-text span {
   display: block;
   font-size: 2.2rem;
