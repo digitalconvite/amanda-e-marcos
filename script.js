@@ -38,13 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const nome = document.getElementById('nome').value;
       const celebracao = document.getElementById('presencaCelebracao').value;
-      const acompanhantes = document.getElementById('acompanhantes').value;
 
       // Formatação da mensagem para o WhatsApp
       let mensagem = `*Confirmação de Casamento - Casamento de Amanda & Marcos*\n\n`;
       mensagem += `👤 *Nome:* ${nome}\n`;
       mensagem += `⛪ *Celebração:* ${celebracao}\n`;
-      mensagem += `👥 *Acompanhantes:* ${acompanhantes}`;
 
       // Monta e abre a URL no WhatsApp
       const urlWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensagem)}`;
